@@ -15,6 +15,6 @@ public class TestAppApplication {
 	}
 @GetMapping("/greeting")
 public String hello(@RequestParam(value = "name", defaultValue = "World") String name) {
-	return String.format("<h1>Hello %s! This is My First Spring Project</h1>", name);
+	return String.format("<h1>Welcome %s! This is my first new branch using Git.</h1>", name);
 }
 }
